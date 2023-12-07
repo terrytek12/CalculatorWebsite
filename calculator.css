@@ -1,0 +1,44 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+}
+
+.screen {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+.button,
+.operator,
+.equal-sign,
+.clear {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+}
